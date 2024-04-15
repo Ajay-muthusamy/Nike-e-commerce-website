@@ -100,6 +100,7 @@ body{
   }
   .box{
     position: absolute;
+    top: 60vh;
     width: 180px;
     height: 200px;  
     margin-left: 70px;
@@ -112,8 +113,8 @@ body{
     padding: 5px;
     border: none;
     border-radius: 2px;
-    background-color: rgb(49, 49, 49);
-    color: white;
+    background-color: rgb(114, 255, 112);
+    color: rgb(0, 0, 0);
   }
 
   @keyframes slideInFromUp {
@@ -144,6 +145,21 @@ body{
     cursor: pointer;
     background-color: #59AF31;
 
+  }
+
+  .player-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .player-container img{
+    width: 70%;
+    border-radius: 10px;
+  }
+  .player-container .photoside1{
+    position: absolute;
+    left: 30vh;
   }
   @media (max-width: 768px){
     .text{
@@ -208,6 +224,7 @@ body{
      font-size: 10px;
     }
     .box{
+      top: 55vh;
       margin-left: 2%;
       width: 80px;
       font-size: 0.5rem;  
