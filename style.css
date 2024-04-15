@@ -99,7 +99,7 @@ body{
     animation: slideInFromLeft 0.8s ease-out; /* Animation properties */
   }
   .box{
-    margin-top: -16%;
+    position: absolute;
     width: 180px;
     height: 200px;  
     margin-left: 70px;
@@ -134,7 +134,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-top: 25vh;
+    padding-top: 23vh;
   }
   .button1 button{
     padding: 5px 10px;
