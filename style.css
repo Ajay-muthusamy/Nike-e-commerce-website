@@ -146,21 +146,53 @@ body{
     background-color: #59AF31;
 
   }
-
   .player-container{
-    margin-top: 40px;
+    margin-top: 120px;
+    padding: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    background-image: url(playerbg.png);
+    background-size: cover;
+    background-position: center;
   }
-  .player-container img{
-    width: 70%;
+  .photoside2{
+    margin-top: 25px;
+    width: 30vh;
+    height: 29vh;
+    background-color: #59AF31;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 1;
+    background-image: url(virat.png);
+    background-size: cover;
+    background-position: center;  
+  }
+
+  .photomain{
+    width: 50vh;
+    height: 45vh;
+    background-color: #59AF31;
     border-radius: 10px;
+    background-image: url(shoemainbanner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 999;
+    background-size: cover;
+    background-position: center; 
   }
-  .player-container .photoside1{
-    position: absolute;
-    left: 30vh;
+  .photoside1{
+    margin-top: 25px;
+    width: 30vh;
+    height: 29vh;
+    background-color: #59AF31;
+    border-radius: 10px 0px 0px 10px;
+    z-index: 1;
+    background-image: url(dhoni.png);
+    background-size: 100%;
+    background-size: cover;
+    background-position: center; 
   }
+
   @media (max-width: 768px){
     .text{
       font-size: 4rem;
@@ -224,7 +256,7 @@ body{
      font-size: 10px;
     }
     .box{
-      top: 55vh;
+      top: 45vh;
       margin-left: 2%;
       width: 80px;
       font-size: 0.5rem;  
@@ -246,5 +278,18 @@ body{
       padding: 3px 5px;
       border-radius: 3px;
     
+    }
+    .player-container .photomain{
+      height: 30vh;
+    }
+    .player-container .photoside1{
+      height: 20vh;
+    }
+    .player-container .photoside2{
+      height: 20vh;
+    }
+    .navbar .nav-logo img{
+      width: 40px;
+      height: 20px;
     }
 }
