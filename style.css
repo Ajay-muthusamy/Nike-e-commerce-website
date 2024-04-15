@@ -191,13 +191,14 @@ body{
 
 @media (max-width: 425px){
   body{
-    background-size: 280%;
+    background-size: 170%;
   }
     .text{
+      margin-top: 50px;
       font-size: 2.5rem;
     }
     .shoe img{
-      top: 20vh;
+      top: 13vh;
       padding-left: 1%;
       width: 95%;
     }
@@ -207,13 +208,19 @@ body{
     .box{
       position: absolute;
       top: 73vh;
-      margin-top: -0.1%;
+      margin-top: -30%;
       width: 140px;
       font-size: 0.8rem;
-      margin-left: 15px;
+      margin-left: 110px;
       height: 20vh;
+      border-radius: 5px;
+      color: rgb(75, 75, 75);
+      background-color: rgb(206, 205, 205);
     }
     .button1{
-      padding-top: 15vh;
+      padding-top: 10vh;
+    }
+    .button1 button{
+      padding: 5px;
     }
 }
