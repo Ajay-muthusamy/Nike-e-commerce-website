@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(shoebg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 238%;
+    height: 40vh;
+  }
+.nav-logo img{
+    width:100px;
+    height: 50px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30%;
+    padding-top: 15px;
+}
+.nav-bar a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+}
+.nav-bar a:hover{
+    color: rgb(178, 105, 245);
+    border-radius: 10px;
+    padding: 10px;
+}
+.login i{
+    color: white;
+    padding-right: 8px;
+}
+.login button{
+    padding: 3px 20px;
+    border: none;
+    background-color: rgb(0, 214, 143);
+    border-radius: 2px;
+}
+.login button:hover{
+    background-color: rgb(58, 166, 130);
+    cursor: pointer;
+    color: white;
+}
+.text{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    opacity: 50%;
+    z-index: 2;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.shoe img{
+    top: 3vh;
+    padding-left: 55px;
+    width: 90%;
+    z-index: 1;
+    position: absolute;
+}
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animated-element {
+    animation: slideInFromRight 0.8s ease-out; /* Animation properties */
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animated-element1 {
+    animation: slideInFromLeft 0.8s ease-out; /* Animation properties */
+  }
+  .box{
+    margin-top: -16%;
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    margin-left: 70px;
+    padding: 30px;
+  }
+  .btn{
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(139, 136, 136);
+    color: white;
+  }
+
+  @keyframes slideInFromUp {
+    0% {
+      transform: translateY(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .box {
+    animation: slideInFromUp 0.8s ease-out; /* Animation properties */
+  }
+  .button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 25vh;
+  }
+  .button1 button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    background-color: #59AF31;
+
+  }
+  @media (max-width: 768px){
+    .text{
+      font-size: 4rem;
+    }
+    .shoe img{
+      top: 18vh;
+    }
+    .box{
+      margin-top: -16%;
+      width: 150px;
+      font-size: 0.8rem;
+    }
+    .navbar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10%;
+      padding-top: 15px;
+    }
+    .login .login-btn{
+      display: none;
+    }
+    .nav-bar {
+          position: absolute;
+          top:0px;
+          left: 0;
+          right: 0;
+          z-index: 999;
+          text-align: center;
+          color: rgb(255, 255, 255);
+          overflow: hidden;
+          transition: all 0.5s;
+    }
+    .nav-bar a{
+      display: flex;
+      color: rgb(255, 255, 255);
+      flex-direction: column;
+      padding-top: 16px;
+    }
+    .nav-bar a:hover{
+      color: violet;
+      border-radius: 10px;
+      padding: 2px;
+  }
+}
+
+@media (max-width: 425px){
+  body{
+    background-size: 280%;
+  }
+    .text{
+      font-size: 2.5rem;
+    }
+    .shoe img{
+      top: 20vh;
+      padding-left: 1%;
+      width: 95%;
+    }
+    .nav-bar a{
+     font-size: 10px;
+    }
+    .box{
+      position: absolute;
+      top: 73vh;
+      margin-top: -0.1%;
+      width: 140px;
+      font-size: 0.8rem;
+      margin-left: 15px;
+      height: 20vh;
+    }
+    .button1{
+      padding-top: 15vh;
+    }
+}
