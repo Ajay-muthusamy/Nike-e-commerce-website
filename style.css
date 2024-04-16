@@ -293,3 +293,19 @@ body{
       height: 20px;
     }
 }
+@media (max-width: 328px){
+  .text{
+    margin-top: 50px;
+    font-size: 1.5rem;
+  }
+  .box{
+    top: 40vh;
+    margin-left: -5%;
+    width: 80px;
+    font-size: 0.5rem;  
+    border-radius: 5px; 
+  }
+  .button1{
+    padding-top: 12vh;
+  }
+}
