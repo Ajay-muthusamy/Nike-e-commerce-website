@@ -7,7 +7,8 @@ header{
   background-image: url(shoebg.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
+  
 }
 .nav-logo img{
     width:100px;
@@ -155,6 +156,7 @@ header{
     background-image: url(playerbg.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat; 
   }
   .photoside2{
     margin-top: 25px;
@@ -165,7 +167,7 @@ header{
     z-index: 1;
     background-image: url(virat.png);
     background-size: cover;
-    background-position: center;  
+    background-repeat: no-repeat; 
   }
 
   .photomain{
@@ -179,6 +181,7 @@ header{
     z-index: 999;
     background-size: cover;
     background-position: center; 
+    background-repeat: no-repeat; 
   }
   .photoside1{
     margin-top: 25px;
@@ -191,9 +194,10 @@ header{
     background-size: 100%;
     background-size: cover;
     background-position: center; 
+    background-repeat: no-repeat; 
   }
 
-  @media (max-width: 768px){
+  @media only screen and (max-width: 768px) {
     .text{
       font-size: 4rem;
     }
@@ -238,7 +242,11 @@ header{
       padding: 2px;
   }
 }
-
+@media only screen and (min-width: 600px){
+  .box{
+    margin-top: 7px;
+  }
+}
 @media (max-width: 600px){
   body{
     background-size: 170%;
