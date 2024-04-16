@@ -299,13 +299,38 @@ body{
     font-size: 1.5rem;
   }
   .box{
-    top: 40vh;
+    position: absolute;
+    top: 35vh;
     margin-left: -5%;
-    width: 80px;
+    width: 60px;
     font-size: 0.5rem;  
     border-radius: 5px; 
   }
   .button1{
     padding-top: 12vh;
+  }
+  .player-container .photomain{
+    height: 23vh;
+  }
+  .player-container .photoside1{
+    height: 15vh;
+  }
+  .player-container .photoside2{
+    height: 15vh;
+  }
+}
+@media (max-width: 300px){
+  .text
+  {
+    font-size: 1.7rem;
+  }
+  .box{
+    top: 35vh;
+    width: 80px;
+    margin-left: -5%;
+    font-size: 7px; 
+  }
+  .button1{
+    padding-top: 6vh;
   }
 }
