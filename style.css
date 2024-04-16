@@ -3,12 +3,12 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background-image: url(shoebg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 238%;
-    height: 40vh;
-  }
+header{
+  background-image: url(shoebg.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px; 
+}
 .nav-logo img{
     width:100px;
     height: 50px;
