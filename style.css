@@ -264,7 +264,7 @@ header{
      font-size: 10px;
     }
     .box{
-      top: 55vh;
+      top: 60vh;
       margin-left: 2%;
       width: 80px;
       font-size: 0.5rem;  
@@ -326,19 +326,61 @@ header{
   .player-container .photoside2{
     height: 15vh;
   }
+  .player-container{
+    margin-top:1vh;
+  } 
 }
-@media (max-width: 300px){
+@media (max-width: 335px){
   .text
   {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
   }
   .box{
-    top: 35vh;
+    top: 37vh;
     width: 80px;
     margin-left: -5%;
     font-size: 7px; 
   }
   .button1{
     padding-top: 6vh;
+  }
+  .player-container{
+    margin-top:1vh;
+  }
+}
+@media (max-width: 376px){
+  .text
+  {
+    font-size: 1.9rem;
+  }
+  .box{
+    top: 37vh;
+    width: 80px;
+    margin-left: -5%;
+    font-size: 7px; 
+  }
+  .button1{
+    padding-top: 6vh;
+  }
+  .player-container{
+    margin-top:1vh;
+  }
+}
+@media (min-width: 376px){
+  .text
+  {
+    font-size: 2.2rem;
+  }
+  .box{
+    top: 37vh;
+    width: 80px;
+    margin-left: -5%;
+    font-size: 7px; 
+  }
+  .button1{
+    padding-top: 6vh;
+  }
+  .player-container{
+    margin-top:1vh;
   }
 }
