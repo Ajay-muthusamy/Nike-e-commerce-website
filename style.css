@@ -303,15 +303,15 @@ header{
 }
 @media (max-width: 328px){
   .text{
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 1.5rem;
   }
   .box{
     position: absolute;
-    top: 35vh;
+    top: 25vh;
     margin-left: -5%;
     width: 60px;
-    font-size: 0.5rem;  
+    font-size: 0.3rem;  
     border-radius: 5px; 
   }
   .button1{
@@ -384,3 +384,37 @@ header{
     margin-top:1vh;
   }
 }
+@media (max-width: 270px){
+  .text
+  {
+    margin-top: 4vh;
+    font-size: 1.8rem;
+  }
+  .box{
+    top: 37vh;
+    width: 80px;
+    margin-left: -5%;
+    font-size: 7px; 
+  }
+  .button1{
+    padding-top: 15vh;
+  }
+  .player-container{
+    margin-top:1vh;
+  }
+  .button1 button{
+    width: 70px;
+    font-size: 10px;
+  }
+  .player-container .photomain{
+    height: 18vh;
+    margin-top: 22px;
+  }
+  .player-container .photoside1{
+    height: 13vh;
+  }
+  .player-container .photoside2{
+    height: 13vh;
+  }
+}
+
