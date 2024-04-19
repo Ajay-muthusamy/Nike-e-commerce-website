@@ -261,7 +261,7 @@ header{
      font-size: 10px;
     }
     .box{
-      top: 55vh;
+      top: 70vh;
       margin-left: 2%;
       width: 80px;
       font-size: 0.5rem;  
@@ -299,15 +299,18 @@ header{
     }
 }
 @media (max-width: 328px){
+  header{
+    background-size: cover;
+  }
   .text{
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 1.5rem;
   }
   .box{
     position: absolute;
-    top: 35vh;
+    top: 30vh;
     margin-left: -5%;
-    width: 60px;
+    width: 80px;
     font-size: 0.5rem;  
     border-radius: 5px; 
   }
@@ -325,20 +328,28 @@ header{
   }
 }
 @media (max-width: 320px){
-  header{
-    padding: 30px;
-  }
   .text
   {
     font-size: 1.7rem;
   }
   .box{
-    top: 30vh;
+    top: 40vh;
     width: 80px;
     margin-left: -5%;
-    font-size: 4px; 
+    font-size: px; 
   }
   .button1{
-    padding-top: 6vh;
+    padding-top: 20vh;
+  }
+  .player-container{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 375px){
+  .box{
+    top: 1vh;
+    width: 80px;
+    margin-left: -5%;
+    font-size: px; 
   }
 }
