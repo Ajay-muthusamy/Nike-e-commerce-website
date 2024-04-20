@@ -5,7 +5,8 @@
 }
 header{
   background-image: url(shoebg.jpg) ;
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .nav-logo img{
     width:100px;
@@ -303,5 +304,71 @@ header{
   }
   .player-container{
     margin-top: 8vh;
+  }
+  .photomain{
+    height:35vh;
+  }
+  .photoside1{
+    height: 25vh;
+  }
+  .photoside2{
+    height: 25vh;
+  }
+  .shoe img{
+    width: 95%;
+  }
+}
+@media (max-width: 330px){
+  .text{
+    font-size: 2rem;
+  }
+  .box{
+    margin-top: 20qvh;
+    width: 150px;
+    font-size: 0.5rem;
+    margin-left:11vh;
+  }
+  .player-container{
+    margin-top: 5vh;
+  }
+  .photomain{
+    height:27vh;
+  }
+  .photoside1{
+    height: 20vh;
+  }
+  .photoside2{
+    height: 20vh;
+  }
+  .shoe img{
+    width: 95%;
+  }
+}
+@media (max-width: 264px)
+{
+  .text{
+    font-size: 1.5rem;
+  }
+  .shoe img{
+    margin-left: -2vh;
+    width: 95%;
+  }
+  .box{
+    margin-top: 20qvh;
+    width: 150px;
+    font-size: 0.5rem;
+    margin-left:6vh;
+  }
+  .player-container{
+    margin-top: 3vh;
+  }
+  .photomain{
+    height:23vh;
+  }
+  .photoside1{
+    height: 15vh;
+  }
+  .photoside2{
+    height: 15svh;
   }
 }
