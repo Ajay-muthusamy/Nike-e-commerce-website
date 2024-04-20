@@ -5,8 +5,7 @@
 }
 header{
   background-image: url(shoebg.jpg) ;
-  background-repeat: no-repeat;
-  background-size: cover 
+
 }
 .nav-logo img{
     width:100px;
@@ -44,11 +43,17 @@ header{
     border: none;
     background-color: rgb(0, 214, 143);
     border-radius: 2px;
+
 }
 .login button:hover{
     background-color: rgb(58, 166, 130);
     cursor: pointer;
     color: white;
+}
+.login #menu{
+  font-size: 13px;
+  margin-top: -20px;
+  /* display: none; */
 }
 .text{
     font-size: 100px;
@@ -100,7 +105,7 @@ header{
   .box{
     width: 180px;
     height: 200px;  
-    margin-left: 70px;
+    margin-left: 10vh;
     padding: 30px;
     color: white;
   }
@@ -193,19 +198,21 @@ header{
     background-position: center; 
     background-repeat: no-repeat; 
   }
-
-  @media only screen and (max-width: 768px) {
+  
+  @media (max-width: 768px) {
     .text{
-      font-size: 4rem;
+      font-size: 5rem;
     }
     .shoe img{
-      top: 18vh;
+      top: 20vh;
     }
     .box{
-      margin-top: -16%;
+      margin-top: 20qvh;
       width: 150px;
       font-size: 0.8rem;
+      margin-left:10vh;
     }
+   
     .navbar{
       display: flex;
       justify-content: space-around;
@@ -213,8 +220,8 @@ header{
       gap: 10%;
       padding-top: 15px;
     }
-    .login .login-btn{
-      display: none;
+    .login #menu{
+      display: block;
     }
     .nav-bar {
           position: absolute;
@@ -238,118 +245,63 @@ header{
       border-radius: 10px;
       padding: 2px;
   }
+  .button1 button{
+    margin-top: -50vh;
+  }
+  .login button{
+    display: none;
+  }
+  .login #menu{
+    margin-left: 25px;
+  }
 }
-@media only screen and (min-width: 600px){
+@media (max-width: 650px)
+{
+  .text{
+    font-size: 4rem;
+  }
+  .button1 button{
+    margin-top: -60vh;
+  }
   .box{
-    margin-top: 7px;
+    margin-top: 20qvh;
+    width: 150px;
+    font-size: 0.8rem;
+    margin-left:10vh;
   }
+ 
 }
-@media (max-width: 600px){
-  body{
-    background-size: 170%;
-  }
-    .text{
-      margin-top: 50px;
-      font-size: 2.5rem;
-    }
-    .shoe img{
-      top: 11vh;
-      padding-left: 1%;
-      width: 95%;
-    }
-    .nav-bar a{
-     font-size: 10px;
-    }
-    .box{
-      top: 70vh;
-      margin-left: 2%;
-      width: 80px;
-      font-size: 0.5rem;  
-      border-radius: 5px; 
-    }
-    #box1{
-      display: block;
-    }
-    .button1{
-      padding-top: 20vh;
-    }
-    .button1 button{
-      padding: 5px;
-    }
-    .btn{
-      display: none;
-    }
-    .button1 button{
-      padding: 3px 5px;
-      border-radius: 3px;
-    
-    }
-    .player-container .photomain{
-      height: 30vh;
-    }
-    .player-container .photoside1{
-      height: 20vh;
-    }
-    .player-container .photoside2{
-      height: 20vh;
-    }
-    .navbar .nav-logo img{
-      width: 40px;
-      height: 20px;
-    }
-}
-@media (max-width: 328px){
+@media (max-width: 538px)
+{
   header{
-    background-size: cover;
+    background-size: 130% 100%;
   }
   .text{
-    margin-top: 40px;
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   .box{
-    position: absolute;
-    top: 30vh;
-    margin-left: -5%;
-    width: 80px;
-    font-size: 0.5rem;  
-    border-radius: 5px; 
-  }
-  .button1{
-    padding-top: 12vh;
-  }
-  .player-container .photomain{
-    height: 23vh;
-  }
-  .player-container .photoside1{
-    height: 15vh;
-  }
-  .player-container .photoside2{
-    height: 15vh;
+    margin-top: 20qvh;
+    width: 150px;
+    font-size: 0.5rem;
+    margin-left:1vh;
   }
 }
-@media (max-width: 320px){
-  .text
-  {
-    font-size: 1.7rem;
-  }
+@media (max-width: 400px)
+{
+  .text{
+    font-size: 2.5rem;
+  } 
   .box{
-    top: 40vh;
-    width: 80px;
-    margin-left: -5%;
-    font-size: px; 
+    margin-top: 8vh;
+    width: 150px;
+    font-size: 0.8rem;
+    margin-left:17vh;
   }
-  .button1{
-    padding-top: 20vh;
+  .shoe img{
+    top: 25vh;
+    left: -6vh;
   }
   .player-container{
-    margin-top: 20px;
-  }
-}
-@media (max-width: 375px){
-  .box{
-    top: 1vh;
-    width: 80px;
-    margin-left: -5%;
-    font-size: px; 
+    margin-top: 8vh;
   }
 }
