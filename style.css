@@ -255,6 +255,40 @@ header{
     margin-top: 10vh;
     flex-wrap: wrap;
   }
+  .fac-clr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .fac-clr .fav-color-btn button{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .s-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shp-cart .shp-content{
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   top: 0; 
+   right: 0;
+   padding: 30px;
+   width: 20%;
+   height: 120%;
+  }
+  .shp-cart .cart-img img{
+    width: 80px;
+  }
   @media (max-width: 768px) {
     .text{
       font-size: 5rem;
